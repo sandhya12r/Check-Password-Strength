@@ -1,0 +1,38 @@
+body{
+    background-color: #00ffff2a;
+    color: rgb(236, 139, 11);
+    text-transform: capitalize;
+}
+
+.container{
+    text-align: center;
+    margin-top: 200px;
+}
+
+input{
+    width: 20rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+label{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.progress-container{
+    position: relative;
+    width: 20rem;
+    height: 0.6rem;
+    margin: auto;
+    border-radius: 8px;
+    outline: 1px solid #333;
+}
+
+.progress-bar{
+    width: 0%;
+    height: 100%;
+    background: palegreen;
+    transition: all .25s ease-in-out;
+}
